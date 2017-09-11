@@ -1,0 +1,12 @@
+$base-color:#000;
+$base-space:20px;
+@mixin test-line{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@mixin hlh($s1) {
+  height: $s1;
+  line-height: $s1;
+  overflow: hidden;
+}

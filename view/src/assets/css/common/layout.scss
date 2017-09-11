@@ -1,0 +1,19 @@
+@import "reset";
+@import "config";
+
+@function remChange($args) {
+  @return  $args / 750 * 10rem;
+}
+body{
+  background-color: rgba(153,204,153,.4);
+}
+#app{
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: remChange(750);
+  margin: 0 auto;
+  .mg-l{
+    margin-left: $base-space;
+  }
+}

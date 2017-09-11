@@ -1,0 +1,37 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "edit full stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luyi10year/super_music.git"
+  },
+  "keywords": [
+    "vue",
+    "node",
+    "full-stack"
+  ],
+  "author": "fenghou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luyi10year/super_music/issues"
+  },
+  "homepage": "https://github.com/luyi10year/super_music#readme",
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-http-proxy": "^1.0.3",
+    "express-session": "^1.15.5",
+    "http-proxy": "^1.16.2",
+    "http-proxy-middleware": "^0.17.4",
+    "mongodb": "^2.2.28",
+    "mysql": "^2.14.1",
+    "supervisor": "^0.12.0"
+  }
+}
